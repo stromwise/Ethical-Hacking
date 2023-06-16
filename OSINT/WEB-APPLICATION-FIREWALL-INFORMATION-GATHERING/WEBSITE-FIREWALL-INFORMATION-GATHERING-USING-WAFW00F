@@ -1,0 +1,12 @@
+IN THIS TOTURIAL YOU WILL LEARN HOW TO DISCOVER WHAT TYPE OF WEB APPLICATIN FIREWALL A WEBSITE IS USING WAFW00F.
+
+
+STEP 0:  git clone https://github.com/EnableSecurity/wafw00f.git (https://github.com/EnableSecurity/wafw00f)
+STEP 1:  cd wafw00f
+STEP 2:  ls
+STEP 3:  sudo python setup.py install
+STEP 4:  wafw00f  (command to run the wafw00f )
+STEP 5:  wafw00f https://www.target.com
+
+BOOM
+

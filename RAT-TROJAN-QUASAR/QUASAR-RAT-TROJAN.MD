@@ -1,19 +1,32 @@
+
 # I must also emphasize that using RATs for unauthorized and unethical purposes is illegal and can have severe consequences. 
-# If you are interested in learning more about RATs for educational purposes, I suggest exploring legitimate sources and tools, such as those provided by security training courses or certifications.
+
+# If you are interested in learning more about RATs for educational purposes, I suggest exploring legitimate sources and tools, such as those provided by 
+security training courses or certifications.
+
 # These sources typically provide a controlled and safe environment for learning and experimentation.
+
 # Remember, even if you have explicit consent and authorization from the owner, using RATs for malicious purposes is illegal and unethical. Always use RAT tools responsibly and for legitimate purposes only.
+
 
 If you have proper authorization and explicit consent from the owner, and you are using a RAT tool for educational purposes only, you can consider using DarkComet RAT. Here are the steps to download and set up DarkComet RAT:
 
-# Now that is a lot of power, so I have to throw out caution. 
-# Please, please, please.Do not use this in any legal way. 
-# I have to throw the disclaimer And you know, whatever you do with it, 
-# I'm not going to be responsible because again, this is going to ,
-# it just gives you a lot of control over, you know, 
-# whoever's computer you try and attack, if that's what you're going to do. 
-# So again, I'm not going to be responsible for this. 
-# I'm just going to show you everything works in order to get it up and running, all right?
 
+# Now that is a lot of power, so I have to throw out caution. 
+
+# Please, please, please.Do not use this in any legal way. 
+
+# I have to throw the disclaimer And you know, whatever you do with it, 
+
+# I'm not going to be responsible because again, this is going to ,
+
+# it just gives you a lot of control over, you know, 
+
+# whoever's computer you try and attack, if that's what you're going to do. 
+
+# So again, I'm not going to be responsible for this. 
+
+# I'm just going to show you everything works in order to get it up and running, all right?
 a lot of you guys have been asking me why I'm doing these with these type of content?
 and the reason why I'm doing them is the special tools that I'm showcasing give you a good idea of how they work.
 So essentially what I'm trying to show you here is I'm going to show you the tool and 
@@ -21,15 +34,23 @@ hopefully that will get your curiosity running and you'll be looking into making
 So and plus, this is a fantastic tool if you're using it the right way, right?
 So again, it's really very simple.
 
-================================================================================================================================================================================================================
+
+==================================================================================================================================================================
+==============================================
+
+
 
 
 # download Quasar rat from it official website realease file. 
+
 - https://github.com/quasar/Quasar/releases
+
 
 # now create a folder on desktop and extract the quasar files on that folder 
 
+
 # now run the quasar.exe/application.
+
 
 # it will open and build a certificate by just click on build/create and save.
 
@@ -79,7 +100,6 @@ here you can give these options to make your app/trojan looks more legit/genuine
 # SELECT/tick/checkbox/mark  tick KEYBOARD/LOGGER AND ATTRIBUTES HIDDEN option.
 
 # now you are all set CLICK BUILD CLIENT.
-
 and then select the folder where you want to store the virus file that is build right now.
 I would suggest to create a new folder and store it there.
 
@@ -92,6 +112,7 @@ I would suggest to create a new folder and store it there.
 #BOOM YOU HAVE THE REVERSE SHELL YOU CAN DO WHATEVER YOU WANT. 
 
 #############################################################################
+
 Again, it is important to note that using Quasar RAT or any other RAT for malicious purposes is illegal and unethical. 
 Only use RATs with explicit consent and authorization from the target system's owner and for educational purposes only.
 

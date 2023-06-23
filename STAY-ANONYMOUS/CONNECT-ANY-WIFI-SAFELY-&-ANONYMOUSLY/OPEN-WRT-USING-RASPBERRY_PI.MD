@@ -1,10 +1,10 @@
-### creating open wrt using raspberry pi model 4-B
+# creating open wrt using raspberry pi model 4-B
 
-# download wrt and install it on the raspberry pi 
+## download wrt and install it on the raspberry pi 
 
-# connect it with a lan cable and connect the lan cable to the computer
+## connect it with a lan cable and connect the lan cable to the computer
 
-# nOw change the ethernet settings in control panel
+## nOw change the ethernet settings in control panel
 
 
 

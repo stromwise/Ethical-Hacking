@@ -1,8 +1,11 @@
 ### MOUSE JACKING 
 
 ## REQUIREMENTS :-
+
 crazy radio PA usb adapter (chip nRF 24L)
+
 => MINI RASPBERRY PI 0
+
 => 3.5/3.7 v BATTERY
 
 ## GITHUB LINK :->

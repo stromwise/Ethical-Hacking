@@ -4,7 +4,7 @@
 
 ## connect it with a lan cable and connect the lan cable to the computer
 
-## nOw change the ethernet settings in control panel
+## now change the ethernet settings in control panel
 
 
 

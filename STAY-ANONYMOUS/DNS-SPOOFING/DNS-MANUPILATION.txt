@@ -1,0 +1,16 @@
+### HOW TO DIVERT ANYONE ON THE LOCAL NETWORK BY MANUPILATION DNS HOST IN KALI LINUX
+
+
+1:  cat /etc/hosts
+
+2:  sudo nano /etc/hosts
+
+
+3:  enter the same dns of your host in front of that and enter that website name on which you want the victims to redirect for example :
+
+4: 127.0.0.1   www.bankofhacking.com
+
+
+#: ctrl + s
+
+#: so now if a user enters www.bankofhacking on google on the same network then he will be redirected to 127.0.0.1

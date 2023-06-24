@@ -15,13 +15,13 @@
 
 
 
-###  how to change the encryption key : 
+##  how to change the encryption key : 
 
 1: ccrypt -x filename.cpt
 
 2: enter old key (0932181)
 
 
-###  how to decrypt a encrypted file 
+##  how to decrypt a encrypted file 
 
 1: ccrypt -d filename.cpt

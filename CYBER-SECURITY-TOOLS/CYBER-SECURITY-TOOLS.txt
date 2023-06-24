@@ -33,9 +33,11 @@
 
 -  open source tools  [ cynet 360, GRR RAPID RESPONSE, ALIEN VAULT ]
 
+-  INCIDENT RESPONSE TOOLS  [ SANS INVESTIGATIVE FORENSICS TOOLKIT WORKSTATION (SIFT) ]
 
+-
 
-
+-
 ____________________________________________________________________________________________________________________________________________
 ▶ Name: StromWise
 
@@ -55,10 +57,3 @@ ________________________________________________________________________________
 ____________________________________________________________________________________________________________________________________________
 
 
-
-
--  INCIDENT RESPONSE TOOLS  [ SANS INVESTIGATIVE FORENSICS TOOLKIT WORKSTATION (SIFT) ]
-
--
-
--

@@ -40,3 +40,33 @@ Step 1-  sudo ifconfig eth0 hw ether 00:00:00:00:00:00
 Step 1-  sudo eth0 up
 
 Step 1-  sudo dhclient eth0
+
+
+
+
+
+
+
+
+
+
+
+____________________________________________________________________________________________________________________________________________
+▶ Name: StromWise
+
+▶ Role: Creator
+
+▶ Location: Unknown
+
+▶ GitHub: https://github.com/stromwise 
+
+▶ Instagram: https://www.instagram.com/stromwise/ 
+
+▶ Facebook: https://www.facebook.com/profile.php?id=100093706328777
+
+▶ Youtube: https://www.youtube.com/channel/UC-tafc0TqgZNnQio8Gj-hjg 
+
+▶ Twitter: https://twitter.com/StromWise 
+____________________________________________________________________________________________________________________________________________
+
+

@@ -46,3 +46,38 @@ twin
 STEP 20:->  once victim enters the password the cloned wifi will be automatically closed.
 
 STEP 21:->  and just refresh the page and you will see the passwod of the victim's wifi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+____________________________________________________________________________________________________________________________________________
+▶ Name: StromWise
+
+▶ Role: Creator
+
+▶ Location: Unknown
+
+▶ GitHub: https://github.com/stromwise 
+
+▶ Instagram: https://www.instagram.com/stromwise/ 
+
+▶ Facebook: https://www.facebook.com/profile.php?id=100093706328777
+
+▶ Youtube: https://www.youtube.com/channel/UC-tafc0TqgZNnQio8Gj-hjg 
+
+▶ Twitter: https://twitter.com/StromWise 
+____________________________________________________________________________________________________________________________________________
+
+

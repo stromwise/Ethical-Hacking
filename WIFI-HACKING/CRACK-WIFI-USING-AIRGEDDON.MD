@@ -44,3 +44,37 @@ STEP 19:  press enter and wait for the password.
 # Disclamer:
 The information provided herein strictly prohibits and disclaims any involvement in cracking WiFi passwords. Users are hereby informed that such activities are illegal and against ethical guidelines. This platform does not endorse, support, or encourage any form of unauthorized access to computer systems or networks. Users are urged to comply with all applicable laws and regulations and to utilize their knowledge and skills for legal and ethical purposes only. The platform, its creators, and contributors cannot be held responsible for any misuse or illegal application of the information provided.
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+____________________________________________________________________________________________________________________________________________
+▶ Name: StromWise
+
+▶ Role: Creator
+
+▶ Location: Unknown
+
+▶ GitHub: https://github.com/stromwise 
+
+▶ Instagram: https://www.instagram.com/stromwise/ 
+
+▶ Facebook: https://www.facebook.com/profile.php?id=100093706328777
+
+▶ Youtube: https://www.youtube.com/channel/UC-tafc0TqgZNnQio8Gj-hjg 
+
+▶ Twitter: https://twitter.com/StromWise 
+____________________________________________________________________________________________________________________________________________
+
+

@@ -35,3 +35,31 @@ STEP 21:-  takeown /f utilman.bak               (Type the following command to t
 STEP 21:-  icacls utilman.bak /grant administrators:F                   (Type the following command to grant yourself full control over the utilman.bak file:)
 STEP 21:-  del utilman.exe                           (Type the following command to delete the cmd utilman.exe file:)
 STEP 21:-  ren utilman.bak utilman.exe                  (Type the following command to rename the utilman.bak file back to utilman.exe:)
+
+
+
+
+
+
+
+
+
+
+
+____________________________________________________________________________________________________________________________________________
+▶ Name: StromWise
+
+▶ Role: Creator
+
+▶ Location: Unknown
+
+▶ GitHub: https://github.com/stromwise 
+
+▶ Instagram: https://www.instagram.com/stromwise/ 
+
+▶ Facebook: https://www.facebook.com/profile.php?id=100093706328777
+
+▶ Youtube: https://www.youtube.com/channel/UC-tafc0TqgZNnQio8Gj-hjg 
+
+▶ Twitter: https://twitter.com/StromWise 
+____________________________________________________________________________________________________________________________________________

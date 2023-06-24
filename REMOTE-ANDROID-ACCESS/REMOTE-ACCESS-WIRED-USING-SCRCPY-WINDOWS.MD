@@ -22,3 +22,29 @@ STEP 1 -  NOW ONCE YOU ARE DONE WITH ALL THE ABOVE STEPS CONNECT THE ANDROID DEV
 STEP 1 -  scrcpy.exe
 
 STEP 1 -  a pop up will appear on your device allow that and BOOM YOU CAN USE THE ANDROID ON THE SYSTEM.
+
+
+
+
+
+
+
+____________________________________________________________________________________________________________________________________________
+▶ Name: StromWise
+
+▶ Role: Creator
+
+▶ Location: Unknown
+
+▶ GitHub: https://github.com/stromwise 
+
+▶ Instagram: https://www.instagram.com/stromwise/ 
+
+▶ Facebook: https://www.facebook.com/profile.php?id=100093706328777
+
+▶ Youtube: https://www.youtube.com/channel/UC-tafc0TqgZNnQio8Gj-hjg 
+
+▶ Twitter: https://twitter.com/StromWise 
+____________________________________________________________________________________________________________________________________________
+
+

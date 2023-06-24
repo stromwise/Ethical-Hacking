@@ -14,3 +14,34 @@ STEP 5:  You can optionally change some parameters like the SSID name and texts 
 STEP 6:  Upload the code into your board.
 
 STEP 7:  You are done!
+
+
+
+
+
+
+
+
+
+
+
+
+____________________________________________________________________________________________________________________________________________
+▶ Name: StromWise
+
+▶ Role: Creator
+
+▶ Location: Unknown
+
+▶ GitHub: https://github.com/stromwise 
+
+▶ Instagram: https://www.instagram.com/stromwise/ 
+
+▶ Facebook: https://www.facebook.com/profile.php?id=100093706328777
+
+▶ Youtube: https://www.youtube.com/channel/UC-tafc0TqgZNnQio8Gj-hjg 
+
+▶ Twitter: https://twitter.com/StromWise 
+____________________________________________________________________________________________________________________________________________
+
+

@@ -1,4 +1,4 @@
-### HOW TO CHANGE RANDOM MAC ADDRESS OF A WIFI/NETWORK 
+## HOW TO CHANGE RANDOM MAC ADDRESS OF A WIFI/NETWORK 
 
 STEP 1-  sudo ip a 
 
@@ -9,7 +9,9 @@ STEP 3-  sudo macchanger -r wlan0  (-r = to change the mac address randomly)
 STEP 4-  sudo ifconfig wlan0 up
 
 
-### Changing MAC address manually (Kali)
+
+
+## Changing MAC address manually (Kali)
 
 STEP 1-  Turn off the Network adapter:
 
@@ -27,3 +29,14 @@ STEP 4-  Check the changes of the network adapter:
 
 ifconfig
 
+
+
+## MAC ADDRESS CHANGE
+
+Step 1-  ifconfig eth0 down
+
+Step 1-  sudo ifconfig eth0 hw ether 00:00:00:00:00:00
+
+Step 1-  sudo eth0 up
+
+Step 1-  sudo dhclient eth0

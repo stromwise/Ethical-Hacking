@@ -32,3 +32,31 @@ sudo gunzip /usr/share/wordlists/rockyou.txt.gz           (to unzip the rockyou 
 
 john -w="/usr/share/wordlists/rockyou.txt" hash.txt -format="NT"    (enter the full path of rockyou && cracking the password with this command.)
 
+
+
+
+
+
+
+
+
+
+
+
+____________________________________________________________________________________________________________________________________________
+▶ Name: StromWise
+
+▶ Role: Creator
+
+▶ Location: Unknown
+
+▶ GitHub: https://github.com/stromwise 
+
+▶ Instagram: https://www.instagram.com/stromwise/ 
+
+▶ Facebook: https://www.facebook.com/profile.php?id=100093706328777
+
+▶ Youtube: https://www.youtube.com/channel/UC-tafc0TqgZNnQio8Gj-hjg 
+
+▶ Twitter: https://twitter.com/StromWise 
+____________________________________________________________________________________________________________________________________________

@@ -26,3 +26,31 @@ STEP 7:  go to the file location and see there must be a png file with the filen
 # airodump-ng wlan1mon -w 'path of the file where you want to save/filename' -c 0 (-c= to spy on the specific channel only )
 
 
+
+
+
+
+
+
+
+
+
+____________________________________________________________________________________________________________________________________________
+▶ Name: StromWise
+
+▶ Role: Creator
+
+▶ Location: Unknown
+
+▶ GitHub: https://github.com/stromwise 
+
+▶ Instagram: https://www.instagram.com/stromwise/ 
+
+▶ Facebook: https://www.facebook.com/profile.php?id=100093706328777
+
+▶ Youtube: https://www.youtube.com/channel/UC-tafc0TqgZNnQio8Gj-hjg 
+
+▶ Twitter: https://twitter.com/StromWise 
+____________________________________________________________________________________________________________________________________________
+
+

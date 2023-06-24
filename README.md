@@ -11,3 +11,31 @@ Overall, ethical hacking plays a critical role in protecting organizations from 
 
 # Disclamer :
 This information is for educational purposes only. Hacking, in any form, is illegal and unethical unless it is done with the explicit consent of the target system's owner. If you plan to use the techniques discussed in this material, you should do so only on systems that you own or have permission to use. The author and publisher of this material are not liable for any damages or legal issues that may arise from the use or misuse of the information presented herein. Always follow the law, respect others' privacy, and use your knowledge and skills for ethical purposes only.
+
+
+
+
+
+
+
+
+
+
+
+____________________________________________________________________________________________________________________________________________
+▶ Name: StromWise
+
+▶ Role: Creator
+
+▶ Location: Unknown
+
+▶ GitHub: https://github.com/stromwise 
+
+▶ Instagram: https://www.instagram.com/stromwise/ 
+
+▶ Facebook: https://www.facebook.com/profile.php?id=100093706328777
+
+▶ Youtube: https://www.youtube.com/channel/UC-tafc0TqgZNnQio8Gj-hjg 
+
+▶ Twitter: https://twitter.com/StromWise 
+____________________________________________________________________________________________________________________________________________

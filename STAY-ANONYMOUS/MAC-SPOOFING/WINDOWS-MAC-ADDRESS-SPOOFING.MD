@@ -1,9 +1,30 @@
+# WINDOWS :
+
+## CHANGE MAC ADDRESS IN WINDOWS :
+
+### USING POWERSHELL
+
+- Get-NetAdapter
+- set-NetAdapter -Name "Wi-Fi" -MacAddress "00:00:00:00:00:00"
+- select yes 
+
+-------------------------------------------------------------------------------------------------------------------------
+
+
 ### SMAC GUI Tool (Windows)
 
 SMAC is a powerful and easy-to-use tool for MAC address changer (spoofer). The tool can activate a new MAC address right after changing it automatically.
 
 https://smac.soft32.com/
+-------------------------------------------------------------------------------------------------------------------------
 
+### USING TECHNITIUM MAC ADDRESS CHANGER V6
+
+- click on the interface you want to change the mac address.
+
+- click on random mac address 
+
+- and then click change now 
 
 
 

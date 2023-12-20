@@ -22,7 +22,7 @@ STEP 7:->  select advanced -> select BAUDRATE according to your node mcu(look at
 
 STEP 8:->  then click flash
 
-STEP 9:->  now open arduino
+STEP 9:->  now open arduino and set prefrence https://arduino.esp8266.com/stable/package_esp8266com_index.json to download the boards.
 
 STEP 10:->  and open the evil-twin file 
 
